@@ -10,7 +10,7 @@ def parse_arguments():
     return parser.parse_args()
 
 def load_symbols():
-    symbols = ["•"]
+    symbols = ["•", "·", "÷", "×", "©", "¥", "®"]
     for line in open("GB2312.TXT"):
         if line.startswith("#") or line.strip() == "":
             continue
