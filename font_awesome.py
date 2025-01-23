@@ -105,8 +105,8 @@ def parse_arguments():
 
 def get_font_file(font_size):
     if font_size == 30:
-        return "fa-light-300.ttf"
-    return "fa-regular-400.ttf"
+        return "../../tmp/fa-light-300.ttf"
+    return "../../tmp/fa-regular-400.ttf"
 
 def generate_utf8_header(emoji_mapping, icon_mapping):
     print('#ifndef FONT_AWESOME_SYMBOLS_H')

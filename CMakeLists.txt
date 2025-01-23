@@ -3,9 +3,11 @@ idf_component_register(
         "font_awesome_14_1.c"
         "font_awesome_30_1.c"
         "font_awesome_16_4.c"
+        "font_awesome_20_4.c"
         "font_awesome_30_4.c"
         "font_puhui_14_1.c"
         "font_puhui_16_4.c"
+        "font_puhui_20_4.c"
         "font_puhui_30_4.c"
     INCLUDE_DIRS
         "include"
