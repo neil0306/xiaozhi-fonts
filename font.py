@@ -28,7 +28,7 @@ def main():
     symbols = load_symbols()
     
     if args.type == "lvgl":
-        output = f"font_puhui_{args.font_size}_{args.bpp}.c"
+        output = f"src/font_puhui_{args.font_size}_{args.bpp}.c"
         symbols_str = "".join(symbols)
         cmd = f"lv_font_conv {flags} --font {font} --format lvgl --lv-include lvgl.h --bpp {args.bpp} -o {output} --size {args.font_size} -r 0x20-0x7F --symbols {symbols_str}"
     else:  # dump
