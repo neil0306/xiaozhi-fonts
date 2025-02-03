@@ -13,7 +13,7 @@ def main():
         print(f"\n正在生成 {size}x{size} emoji，{cf}...")
         
         # 构建命令并执行
-        cmd = f"python font_emoji.py --type lvgl --size {size} --cf {cf} --compress RLE"
+        cmd = f"python font_emoji.py --type lvgl --size {size} --cf {cf} --compress NONE"
         ret = os.system(cmd)
         
         if ret != 0:
