@@ -2,7 +2,7 @@
 #include <esp_log.h>
 
 extern const lv_image_dsc_t emoji_1f636_64; // neutral
-extern const lv_image_dsc_t emoji_1f60a_64; // happy
+extern const lv_image_dsc_t emoji_1f642_64; // happy
 extern const lv_image_dsc_t emoji_1f606_64; // laughing
 extern const lv_image_dsc_t emoji_1f602_64; // funny
 extern const lv_image_dsc_t emoji_1f614_64; // sad
@@ -11,7 +11,7 @@ extern const lv_image_dsc_t emoji_1f62d_64; // crying
 extern const lv_image_dsc_t emoji_1f60d_64; // loving
 extern const lv_image_dsc_t emoji_1f633_64; // embarrassed
 extern const lv_image_dsc_t emoji_1f62f_64; // surprised
-extern const lv_image_dsc_t emoji_1f632_64; // shocked
+extern const lv_image_dsc_t emoji_1f631_64; // shocked
 extern const lv_image_dsc_t emoji_1f914_64; // thinking
 extern const lv_image_dsc_t emoji_1f609_64; // winking
 extern const lv_image_dsc_t emoji_1f60e_64; // cool
@@ -31,7 +31,7 @@ typedef struct emoji_64 {
 static const void* get_imgfont_path(const lv_font_t * font, uint32_t unicode, uint32_t unicode_next, int32_t * offset_y, void * user_data) {
     static const emoji_64_t emoji_64_table[] = {
         { &emoji_1f636_64, 0x1f636 }, // neutral
-        { &emoji_1f60a_64, 0x1f60a }, // happy
+        { &emoji_1f642_64, 0x1f642 }, // happy
         { &emoji_1f606_64, 0x1f606 }, // laughing
         { &emoji_1f602_64, 0x1f602 }, // funny
         { &emoji_1f614_64, 0x1f614 }, // sad
@@ -40,7 +40,7 @@ static const void* get_imgfont_path(const lv_font_t * font, uint32_t unicode, ui
         { &emoji_1f60d_64, 0x1f60d }, // loving
         { &emoji_1f633_64, 0x1f633 }, // embarrassed
         { &emoji_1f62f_64, 0x1f62f }, // surprised
-        { &emoji_1f632_64, 0x1f632 }, // shocked
+        { &emoji_1f631_64, 0x1f631 }, // shocked
         { &emoji_1f914_64, 0x1f914 }, // thinking
         { &emoji_1f609_64, 0x1f609 }, // winking
         { &emoji_1f60e_64, 0x1f60e }, // cool

@@ -13,23 +13,23 @@ from LVGLImage import LVGLImage, ColorFormat, CompressMethod, OutputFormat
 
 # map to emoji
 emoji_mapping = {
-    "neutral": 0x1f636, # 😐
-    "happy": 0x1f60a,    # 😊
+    "neutral": 0x1f636, # 😶
+    "happy": 0x1f642,    # 🙂
     "laughing": 0x1f606, # 😆
     "funny": 0x1f602,    # 😂
     "sad": 0x1f614,      # 😔
-    "angry": 0x1f620,    # 😡
+    "angry": 0x1f620,    # 😠
     "crying": 0x1f62d,   # 😭
     "loving": 0x1f60d,   # 😍
     "embarrassed": 0x1f633, # 😳
-    "surprised": 0x1f62f,   # 😲
-    "shocked": 0x1f632,     # 😱
+    "surprised": 0x1f62f,   # 😯
+    "shocked": 0x1f631,     # 😱
     "thinking": 0x1f914,    # 🤔
     "winking": 0x1f609,     # 😉
     "cool": 0x1f60e,        # 😎
     "relaxed": 0x1f60c,     # 😌
     "delicious": 0x1f924,   # 🤤
-    "kissy": 0x1f618,       # 😗
+    "kissy": 0x1f618,       # 😘
     "confident": 0x1f60f,   # 😏
     "sleepy": 0x1f634,      # 😴
     "silly": 0x1f61c,       # 😜
