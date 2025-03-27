@@ -41,7 +41,7 @@ def main():
         symbols = load_symbols()
         output = f"src/font_puhui_{args.font_size}_{args.bpp}.c"
     elif args.language == "zh_tc":
-        font = "NotoSansTC-Regular.ttf"
+        font = "NotoSansHK-Medium.ttf"
         symbols = load_symbols_zh_tc()
         output = f"src/font_noto_{args.font_size}_{args.bpp}_{args.language}.c"
     
